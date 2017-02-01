@@ -11,5 +11,12 @@ const T = new Twit({
   //timeout_ms:           60*1000,  // optional HTTP request timeout to apply to all requests.
 })
 
+router.get('/tweetpost/:tweet',function(req,res){
+
+  T.post('statuses/update',{status:req.params.tweet}, function(err, data, response) {
+    res.send(data)
+  })
+})
+
 app.use('/',router)
 app.listen(3000)

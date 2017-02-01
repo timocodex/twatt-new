@@ -1,0 +1,23 @@
+{
+  "name": "twatt-new",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timocodex/twatt-new.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timocodex/twatt-new/issues"
+  },
+  "homepage": "https://github.com/timocodex/twatt-new#readme",
+  "dependencies": {
+    "express": "^4.14.1",
+    "twit": "^2.2.5"
+  }
+}
